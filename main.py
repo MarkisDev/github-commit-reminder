@@ -37,7 +37,7 @@ def job():
             f"You have {h:.0f}H : {m:.0f}M left to push commits!")
 
 
-schedule.every(1).minutes.do(job)
+schedule.every(3).hours.do(job)
 
 while True:
     schedule.run_pending()
