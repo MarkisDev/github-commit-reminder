@@ -1,2 +1,3 @@
 # github-commit-reminder
-A python script to help maintain your commit streak on GitHub.
+
+A script to help maintain your commit streak on Github using push notifications!
